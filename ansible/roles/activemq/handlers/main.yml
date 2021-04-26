@@ -2,4 +2,4 @@
 - name: activemq-restart
   systemd:
     name: activemq
-    state: stopped
+    state: restarted
